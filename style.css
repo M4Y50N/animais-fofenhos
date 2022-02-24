@@ -82,15 +82,19 @@ h3 {
 }
 
 @media (max-width: 414px) {
+	html,
+	body {
+		width: 100%;
+	}
 	h1 {
-		font-size: 1.3em;
+		font-size: 1.7em;
 		text-align: center;
 	}
 
 	h2 {
 		text-align: center;
-		font-size: 0.8em;
-		width: 70%;
+		font-size: 1.3em;
+		width: 80%;
 		margin: auto;
 	}
 

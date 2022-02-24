@@ -1,0 +1,121 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main {
+	background-color: rgb(228, 228, 228);
+}
+
+h1 {
+	font-size: 3.5em;
+	font-weight: 600;
+
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+	text-align: center;
+
+	color: whitesmoke;
+
+	padding: 20px 10px 50px;
+	background-color: rgba(17, 16, 16, 0.856);
+}
+
+h1 span {
+	font-size: 1.3em;
+	font-weight: 800;
+
+	color: rgb(161, 67, 67);
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2 {
+	font-size: 2em;
+	width: 50ch;
+	padding-bottom: 20px;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+	padding: 30px 0px;
+}
+
+.img {
+	display: flex;
+	align-items: baseline;
+}
+
+img {
+	box-shadow: 7px 5px 5px rgba(0, 0, 0, 0.767);
+}
+
+.img p {
+	padding-left: 20px;
+	width: 20ch;
+	font-size: 1.9em;
+
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.479);
+}
+
+h3 {
+	padding: 20px 40px;
+	font-size: 2em;
+
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+
+	text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.479);
+}
+
+.tam-img {
+	width: 605px;
+	height: 401px;
+}
+
+@media (max-width: 414px) {
+	h1 {
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 0.8em;
+		width: 70%;
+		margin: auto;
+	}
+
+	h3 {
+		width: 90%;
+		margin: auto;
+		font-size: 1em;
+		text-align: justify;
+	}
+
+	.img p {
+		padding-left: 0px;
+		text-align: left;
+		font-size: 1.3em;
+		margin-top: 20px;
+		width: 20ch;
+	}
+
+	.img {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.tam-img {
+		width: 70%;
+		height: 200px;
+	}
+}
